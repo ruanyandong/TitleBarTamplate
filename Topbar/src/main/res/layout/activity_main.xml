@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <com.example.mytopbar.Topbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:leftBackground="@drawable/blue_button"
+        app:leftText="Back"
+        app:leftTextColor="#ffffff"
+        app:rightBackground="@drawable/blue_button"
+        app:rightText="More"
+        app:rightTextColor="#ffffff"
+        app:title="自定义标题"
+        app:titleTextColor="#123412"
+        app:titleTextSize="10sp">
+        
+        
+    </com.example.mytopbar.Topbar>
+
+   
+</RelativeLayout>                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

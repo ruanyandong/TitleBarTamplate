@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Topbar">
+        <attr name="title" format="string"/>
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="titleTextColor" format="color"/>
+
+        <attr name="leftTextColor" format="color"/>
+        <!--reference意思就是处了可以写十六进制的颜色，
+        还可以引用drawable等其他资源中作为背景-->
+        <attr name="leftBackground" format="reference|color"/>
+        <attr name="leftText" format="string"/>
+
+        <attr name="rightTextColor" format="color"/>
+        <attr name="rightBackground" format="reference|color"/>
+        <attr name="rightText" format="string"/>
+    </declare-styleable>
+</resources>
